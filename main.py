@@ -119,7 +119,6 @@ if __name__ == "__main__":
     env = MazeEnvironment(maze=MAZE)
     agent = QLearningAgent(actions=env.action_space)
     
-
     # 训练
     num_episodes = 5000
     for episode in range(num_episodes):
